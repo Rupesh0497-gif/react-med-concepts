@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="bg-gray-100 h-auto min-h-screen w-full">
     <Header/>
-    <div className="container mx-auto mt-5 p-5">
+    <div className="max-w-[960px] mx-auto mt-5 p-5">
     <FormProvider>
       <BrowserRouter>  
        <Suspense fallback={<div>Loading Page…</div>}> 
