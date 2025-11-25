@@ -34,3 +34,4 @@ Steps to visit the app,
 In Progress Items:
 File Handling on form 4
 Accessibility
+Test Suite
