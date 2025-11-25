@@ -11,7 +11,7 @@ const Step2 = () => {
   const [error, setError] = useState(false)
   const navigate = useNavigate();
 
-  const back = () => navigate("/react-med-concepts/facilitydetails");
+  const back = () => navigate("/react-med-concepts/quoterequest");
 
   let options = ["Short-Term Acute Care", "Long-Term Acute Care", "Critical Access", "Children's", "Free-Standing Psychiatric", "Other"]
 
@@ -72,10 +72,10 @@ const Step2 = () => {
 </button>
         </span>
         <div className='text-base flex items-center'>
-            <button className="bg-brand hover:bg-brand text-white font-bold py-2 px-4  mr-3 rounded">
+            <button className="bg-brand hover:bg-white hover:text-brand hover:border text-white font-bold py-2 px-4  mr-3 rounded">
   Save
 </button>
-            <button type="submit" className="bg-brand hover:bg-brand text-white font-bold py-2 px-4 rounded">
+            <button type="submit" className="bg-brand hover:bg-white hover:text-brand hover:border text-white font-bold py-2 px-4 rounded">
   Continue
 </button>
         </div>

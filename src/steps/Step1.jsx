@@ -13,16 +13,22 @@ const Step1 = () => {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    console.log(currentData);
     const isAllErrorObjectsEmpty = Object.values(errors).every(
       (value) =>
         value && typeof value === "object" && Object.keys(value).length === 0
     );
-    const hasAllValues = Object.values(currentData).every(
-      (value) => value !== "" && value !== null && value !== undefined
-    );
-
-    if (isAllErrorObjectsEmpty && hasAllValues) {
+    let allow = true, errObj = {};
+    for(let obj in currentData){
+      if(currentData[obj] === ''){
+        allow = false;
+        errObj[obj] = {}
+        errObj[obj]['message'] = errorInfo[obj]
+      }
+    }
+    if(!allow){
+      setErrors(errObj)
+    }
+    if (isAllErrorObjectsEmpty && allow) {
       setFormData({ ...formData, ...currentData });
       navigate("/react-med-concepts/facilitydetails");
     }
@@ -174,17 +180,17 @@ const Step1 = () => {
       </div>
       <div className="flex justify-between px-1 py-4">
         <span className="text-xl">
-          <button className="bg-transparent hover:bg-brand text-blue-700 font-semibold hover:text-white py-2 px-4 border border-brand hover:border-transparent rounded">
+          <button type="button" className="bg-transparent hover:bg-brand text-blue-700 font-semibold hover:text-white py-2 px-4 border border-brand hover:border-transparent rounded">
             {"Exit"}
           </button>
         </span>
         <div className="text-base flex items-center">
-          <button className="bg-brand hover:bg-brand text-white font-bold py-2 px-4  mr-3 rounded">
+          <button type="button" className="bg-brand hover:bg-white hover:text-brand hover:border text-white font-bold py-2 px-4  mr-3 rounded">
             Save
           </button>
           <button
             type="submit"
-            className="bg-brand hover:bg-brand text-white font-bold py-2 px-4 rounded"
+            className="bg-brand hover:bg-white hover:text-brand hover:border text-white font-bold py-2 px-4 rounded"
           >
             Continue
           </button>

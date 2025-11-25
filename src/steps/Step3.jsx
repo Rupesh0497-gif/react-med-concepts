@@ -56,7 +56,6 @@ const Step3 = () => {
   }
   const onSubmit = (e) => {
     e.preventDefault();
-    console.log(currentData);
     const isAllErrorObjectsEmpty = Object.values(errors).every(
       (value) =>
         value && typeof value === "object" && Object.keys(value).length === 0
@@ -104,7 +103,7 @@ const Step3 = () => {
       <h4 className="my-4 text-lg">Billing Address</h4>
       <CustomInput label="Street Address" className="flex-1" feildName="streetaddress" value={currentData["streetaddress"] || ""} 
       onChange={onChangeHandler} onBlur={onBlurHandler} errors={errors}/>
-      <div className="flex items-center">
+      <div className="flex">
   <div className="flex-1 mr-2">
     <CustomInput
       label="City"
@@ -148,10 +147,10 @@ const Step3 = () => {
 </button>
         </span>
         <div className='text-base flex items-center'>
-            <button className="bg-brand hover:bg-brand text-white font-bold py-2 px-4  mr-3 rounded">
+            <button className="bg-brand hover:bg-white hover:text-brand hover:border text-white font-bold py-2 px-4  mr-3 rounded">
   Save
 </button>
-            <button type="submit" className="bg-brand hover:bg-brand text-white font-bold py-2 px-4 rounded">
+            <button type="submit" className="bg-brand hover:bg-white hover:text-brand hover:border text-white font-bold py-2 px-4 rounded">
   Continue
 </button>
         </div>

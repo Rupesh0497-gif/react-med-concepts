@@ -11,7 +11,7 @@ const Review = () => {
   const navigate = useNavigate();
   console.log(formData);
 
-  const back = () => navigate("/step/5");
+  const back = () => navigate("/react-med-concepts/servicescerts");
 
   const onSubmit = () => {
     alert("Form Submitted Successfully!");
@@ -65,7 +65,7 @@ const Review = () => {
             </span>
             <div className='text-base flex items-center'>
                 
-                <button type="submit" className="bg-brand hover:bg-brand text-white font-bold py-2 px-4 rounded">
+                <button type="submit" className="bg-brand hover:bg-white hover:text-brand hover:border text-white font-bold py-2 px-4 rounded">
       Submit Application
     </button>
             </div>

@@ -95,10 +95,10 @@ const navigate = useNavigate();
 </button>
         </span>
         <div className='text-base flex items-center'>
-            <button className="bg-brand hover:bg-brand text-white font-bold py-2 px-4  mr-3 rounded">
+            <button className="bg-brand hover:bg-white hover:text-brand hover:border text-white font-bold py-2 px-4  mr-3 rounded">
   Save
 </button>
-            <button type="submit" className="bg-brand hover:bg-brand text-white font-bold py-2 px-4 rounded">
+            <button type="submit" className="bg-brand hover:bg-white hover:text-brand hover:border text-white font-bold py-2 px-4 rounded">
   Continue
 </button>
         </div>
