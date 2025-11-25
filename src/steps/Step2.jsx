@@ -11,7 +11,7 @@ const Step2 = () => {
   const [error, setError] = useState(false)
   const navigate = useNavigate();
 
-  const back = () => navigate("/step/1");
+  const back = () => navigate("/react-med-concepts/facilitydetails");
 
   let options = ["Short-Term Acute Care", "Long-Term Acute Care", "Critical Access", "Children's", "Free-Standing Psychiatric", "Other"]
 
@@ -22,7 +22,7 @@ const Step2 = () => {
     }
     if(!error && facultyData.faculty_Type){
       setFormData({ ...formData, ...facultyData });
-      navigate("/step/3");
+      navigate("/react-med-concepts/leadershipcontacts");
     }
   };
 

@@ -11,7 +11,7 @@ const Step3 = () => {
   const [currentData, setCurrentData] = useState(formData);
     const [errors, setErrors] = useState({});
   const navigate = useNavigate();
-  const back = () => navigate("/step/2");
+  const back = () => navigate("/react-med-concepts/facilitydetails");
 
  const onChangeHandler = (e) => {
     setCurrentData((prev) => ({
@@ -67,7 +67,7 @@ const Step3 = () => {
 
     if (isAllErrorObjectsEmpty && hasAllValues) {
       setFormData({ ...formData, ...currentData });
-      navigate("/step/4");
+      navigate("/react-med-concepts/siteinfo");
     }
   };
 

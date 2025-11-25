@@ -24,7 +24,7 @@ const Step1 = () => {
 
     if (isAllErrorObjectsEmpty && hasAllValues) {
       setFormData({ ...formData, ...currentData });
-      navigate("/step/2");
+      navigate("/react-med-concepts/facilitydetails");
     }
   };
 

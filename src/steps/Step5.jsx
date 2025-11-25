@@ -17,7 +17,7 @@ const Step5 = () => {
 
     const navigate = useNavigate();
 
-  const back = () => navigate("/step/4")
+  const back = () => navigate("/react-med-concepts/siteinfo")
 function clickHandler(val){
     setCurrentState(val)
 }
@@ -25,7 +25,7 @@ function clickHandler(val){
 const onSubmit = (e) =>{
       e.preventDefault();
        setFormData({...formData, ...currentData})
-      navigate("/review");
+      navigate("/react-med-concepts/review");
     }
 
 

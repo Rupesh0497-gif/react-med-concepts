@@ -12,14 +12,13 @@ const Step4 = () => {
     }
 const navigate = useNavigate();
 
-  const next = () => navigate("/step/5");
-  const back = () => navigate("/step/3")
+  const back = () => navigate("/react-med-concepts/leadershipcontacts")
   
   const onSubmit = (e) =>{
       e.preventDefault();
       let obj =  {'sitesandLocations': locationState}
       setFormData({...formData, ...obj})
-      navigate("/step/5");
+      navigate("/react-med-concepts/servicescerts");
     }
 
   return (

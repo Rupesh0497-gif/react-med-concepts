@@ -23,13 +23,13 @@ function App() {
       <BrowserRouter>  
        <Suspense fallback={<div>Loading Page…</div>}> 
         <Routes>
-          <Route path="/" element={<Step1 />} />
-          <Route path="/step/1" element={<Step1 />} />
-          <Route path="/step/2" element={<Step2 />} />
-          <Route path="/step/3" element={<Step3 />} />
-          <Route path="/step/4" element={<Step4 />} />
-          <Route path="/step/5" element={<Step5 />} />
-          <Route path="/review" element={<Review />} />
+          <Route path="/react-med-concepts/" element={<Step1 />} />
+          <Route path="/react-med-concepts/quoterequest" element={<Step1 />} />
+          <Route path="/react-med-concepts/facilitydetails" element={<Step2 />} />
+          <Route path="/react-med-concepts/leadershipcontacts" element={<Step3 />} />
+          <Route path="/react-med-concepts/siteinfo" element={<Step4 />} />
+          <Route path="/react-med-concepts/servicescerts" element={<Step5 />} />
+          <Route path="/react-med-concepts/review" element={<Review />} />
         </Routes>
         </Suspense>  
       </BrowserRouter>
