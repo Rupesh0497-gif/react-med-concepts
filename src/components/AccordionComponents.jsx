@@ -34,18 +34,6 @@ return(
           </div>
         </>
       }
-      editView={
-        <>
-          {/* <CustomInput label="Legal Entity Name" feildName="legalentityname" />
-          <CustomInput label="d/b/a Name" feildName="dbaname" />
-          <CustomInput label="First Name" feildName="firstname" />
-          <CustomInput label="Last Name" feildName="lastname" />
-          <CustomInput label="Title" feildName="title" />
-          <CustomInput label="Work Phone" feildName="workphone" />
-          <CustomInput label="Cell Phone" feildName="cellphone" />
-          <CustomInput label="Email" feildName="email" /> */}
-        </>
-      }
     />
 )
 }
@@ -61,18 +49,6 @@ return(
             <span className="text-gray-600">Facility Type</span>
             <span>{formData.faculty_Type}</span>
           </div>
-        </>
-      }
-      editView={
-        <>
-          {/* <CustomInput label="Legal Entity Name" feildName="legalentityname" />
-          <CustomInput label="d/b/a Name" feildName="dbaname" />
-          <CustomInput label="First Name" feildName="firstname" />
-          <CustomInput label="Last Name" feildName="lastname" />
-          <CustomInput label="Title" feildName="title" />
-          <CustomInput label="Work Phone" feildName="workphone" />
-          <CustomInput label="Cell Phone" feildName="cellphone" />
-          <CustomInput label="Email" feildName="email" /> */}
         </>
       }
     />
@@ -125,18 +101,6 @@ return(
          
         </>
       }
-      editView={
-        <>
-          {/* <CustomInput label="Legal Entity Name" feildName="legalentityname" />
-          <CustomInput label="d/b/a Name" feildName="dbaname" />
-          <CustomInput label="First Name" feildName="firstname" />
-          <CustomInput label="Last Name" feildName="lastname" />
-          <CustomInput label="Title" feildName="title" />
-          <CustomInput label="Work Phone" feildName="workphone" />
-          <CustomInput label="Cell Phone" feildName="cellphone" />
-          <CustomInput label="Email" feildName="email" /> */}
-        </>
-      }
     />
 )
 }
@@ -155,18 +119,6 @@ return(
             <span className="text-gray-600">Input Method</span>
             <span>{""}</span>
           </div>
-        </>
-      }
-      editView={
-        <>
-          {/* <CustomInput label="Legal Entity Name" feildName="legalentityname" />
-          <CustomInput label="d/b/a Name" feildName="dbaname" />
-          <CustomInput label="First Name" feildName="firstname" />
-          <CustomInput label="Last Name" feildName="lastname" />
-          <CustomInput label="Title" feildName="title" />
-          <CustomInput label="Work Phone" feildName="workphone" />
-          <CustomInput label="Cell Phone" feildName="cellphone" />
-          <CustomInput label="Email" feildName="email" /> */}
         </>
       }
     />
@@ -215,18 +167,6 @@ return(
                  <span className='text-base text-brand'> {item}</span>
             ))}</span>
           </div>
-        </>
-      }
-      editView={
-        <>
-          {/* <CustomInput label="Legal Entity Name" feildName="legalentityname" />
-          <CustomInput label="d/b/a Name" feildName="dbaname" />
-          <CustomInput label="First Name" feildName="firstname" />
-          <CustomInput label="Last Name" feildName="lastname" />
-          <CustomInput label="Title" feildName="title" />
-          <CustomInput label="Work Phone" feildName="workphone" />
-          <CustomInput label="Cell Phone" feildName="cellphone" />
-          <CustomInput label="Email" feildName="email" /> */}
         </>
       }
     />
