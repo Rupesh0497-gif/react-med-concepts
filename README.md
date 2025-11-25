@@ -1,16 +1,37 @@
-# React + Vite
+# DNV Multi-Step Form Application
+A responsive, multi-step form built with React, TailwindCSS and Context API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project implements a multi-step dynamic form with live validation, reusable components, and responsive design. It allows healthcare organizations to enter data, validate input, and navigate through a workflow smoothly.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Multi-step navigation with progress bar
+- Form Validation
+- Custom reusable form components
+- Dynamic select and radio groups
+- File upload UI - In Progress
+- Accordion summary pages
+- TailwindCSS responsive design
 
-## React Compiler
+## Installation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clone the repository:
+   git clone https://github.com/Rupesh0497-gif/react-med-concepts.git
 
-## Expanding the ESLint configuration
+2. Install dependencies:
+   npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Run the development server:
+   npm run dev
+
+The updated form is deployed live and available at https://rupesh0497-gif.github.io/react-med-concepts/
+
+Steps to visit the app,
+1. Start the server using `npm run dev`.
+2. Navigate to `/react-med-concepts/` to begin the form.
+3. Fill in required fields.
+4. Use the “Continue” and “Previous” buttons to navigate.
+
+In Progress Items:
+File Handling on form 4
+Accessibility
+Test Suite
