@@ -1,1 +1,0 @@
-import{j as e}from"./index-0UBDenpU.js";import{F as s}from"./index-BX2qIyHR.js";function i({message:r}){return e.jsxs("div",{className:"text-base text-red-600 flex m-2 items-center",children:[" ",e.jsx(s,{})," ",e.jsx("p",{className:"mx-2",children:r||""})]})}export{i as E};

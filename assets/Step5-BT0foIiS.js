@@ -1,4 +1,4 @@
-import{r as f,j as e,F as B,u as F}from"./index-0UBDenpU.js";import{d as P,c as S,e as C,f as T}from"./index-BX2qIyHR.js";import{P as _}from"./ProgressBar-CbnwQIRf.js";import{a as j,b as R}from"./constants-BEFISc12.js";const E=["Action1","Action2","Action3","Action4","Action5"];function L({label:d="Select Standard(s)",toggleSelect:c,selected:s,remove:o}){const[r,u]=f.useState(!1);return e.jsxs("div",{className:"w-full relative",children:[e.jsxs("div",{onClick:()=>u(!r),className:`\r
+import{r as f,j as e,F as B,u as F}from"./index-BhNOaluX.js";import{d as P,c as S,e as C,f as T}from"./index-BNxoThZo.js";import{P as _}from"./ProgressBar-DTJx4ehq.js";import{a as j,b as R}from"./constants-BEFISc12.js";const E=["Action1","Action2","Action3","Action4","Action5"];function L({label:d="Select Standard(s)",toggleSelect:c,selected:s,remove:o}){const[r,u]=f.useState(!1);return e.jsxs("div",{className:"w-full relative",children:[e.jsxs("div",{onClick:()=>u(!r),className:`\r
           border border-gray-300 rounded-md bg-white h-10\r
           pl-3 pr-10 flex items-center cursor-pointer\r
           focus-within:ring-2 focus-within:ring-brandBlue\r
